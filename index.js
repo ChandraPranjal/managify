@@ -29,7 +29,7 @@ app.get('/', function(req, res) {
 
 app.get("/hello" , (req,res)=>{
     console.log("Hello It's working");
-    res.json("Hello World");
+    res.json("deployed");
 })
 app.get(['/facebook', '/instagram'], function(req, res) {
   if (
